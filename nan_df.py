@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv(r'C:\Users\RexTire\Desktop\ML\House Prices - Advanced Regression Techniques\train.csv')
+df = pd.read_csv('train.csv')
 
 
 df_nan_index_list = df.isnull().sum().values.tolist()
