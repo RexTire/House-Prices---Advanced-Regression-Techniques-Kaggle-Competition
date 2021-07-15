@@ -3,7 +3,6 @@ import numpy as np
 
 df = pd.read_csv('train.csv')
 
-
 df_nan_index_list = df.isnull().sum().values.tolist()
 
 no_of_nan = []
