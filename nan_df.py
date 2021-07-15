@@ -32,5 +32,4 @@ nan_arr = nan_arr.T
 nan_df = pd.DataFrame(nan_arr, columns=['index', 'no of nan values', 'column name'])
 nan_df['% of nan'] = nan_df['no of nan values'].astype(int) / len(df) * 100
 
-nan_df.to_csv(r'C:\Users\RexTire\Desktop\ML\House Prices - Advanced Regression Techniques\nan_df.csv')
-# print(nan_df)
+nan_df.to_csv('nan_df.csv', index=False)
