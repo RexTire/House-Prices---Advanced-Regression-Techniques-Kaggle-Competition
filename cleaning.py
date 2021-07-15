@@ -52,4 +52,4 @@ df['GarageType'].at[1230] = '2BuiltIn'
 df['MiscFeature'].at[346] = 'NMF'
 df['MiscFeature'].at[1230] = 'NMF'
 
-df.to_csv('cleaned_train_df.csv')
+df.to_csv('cleaned_train_df.csv', inplace=False)
